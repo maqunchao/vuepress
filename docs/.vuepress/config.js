@@ -13,7 +13,7 @@ module.exports = {
   themeConfig: {
       nav: [{ //导航栏
               text: 'js',
-              link: '/html/'
+              link: '/js/'
           },
           {
               text: 'iOS',

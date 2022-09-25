@@ -3,7 +3,7 @@ home: true
 heroImage: logo.png
 tagline: HTML + CSS + JavaScript
 actionText: 开始学习 →
-actionLink: /HTML/
+actionLink: /js/
 features:
   - title: HTML
     details: 超文本标记语言
