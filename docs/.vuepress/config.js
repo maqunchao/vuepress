@@ -15,16 +15,14 @@ module.exports = {
     themeConfig: {
         nav: require("./nav.js"),
         sidebar: {
-            //sidebar: 'auto', // 侧边栏配置,设置auto是自动配置
-            //sidebarDepth: 2, // 侧边栏显示2级
-
             '/js/': [{
-                title: 'JS',
-                sidebarDepth: 2,
-                collapsable: true, //可折叠
-                children: ['原型与原型链', '1.箭头函数和普通函数的区别', 'HTML02', 'HTML03', 'HTML04', 'HTML05'] //2级页面，第一个设置为空字符串时，显示的是README.md的内容
-
+                title: '常见问题（FAQ）',
+                children: [
+                    { title: '1001', path: '1001' },
+                    { title: '箭头函数和普通函数的区别', path: '箭头函数和普通函数的区别' }
+                ]
             }],
+
             '/css/': [{
                 title: 'iOS',
                 sidebarDepth: 2,

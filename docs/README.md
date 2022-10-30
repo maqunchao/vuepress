@@ -2,8 +2,8 @@
 home: true
 heroImage: logo.png
 tagline:
-actionText: 开始学习 →
-actionLink: /js/eventloop
+# actionText: 开始学习 →
+# actionLink: /js/eventloop
 features:
   - title: 技术
     details: 记录技术,乐于分享

@@ -2,8 +2,8 @@ module.exports = [
     {
         text: '随笔记', link: '/coding/',
         items: [
-            { text: 'js随记', link: '/baodian/zero/' },
-            { text: '剑指offer', link: '/baodian/zero/' },
+            { text: 'js随记', link: '/js/' },
+            { text: 'http', link: '/baodian/zero/' },
             { text: 'LeeCode', link: '/baodian/high/' }
         ]
     },
