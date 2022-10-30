@@ -17,6 +17,8 @@ module.exports = {
         sidebar: {
             '/js/': [{
                 title: '常见问题（FAQ）',
+                path: "/js/1001",
+                collapsable: false,
                 children: [
                     { title: '1001', path: '1001' },
                     { title: '箭头函数和普通函数的区别', path: '箭头函数和普通函数的区别' }

@@ -31,7 +31,7 @@ http协议里面url是不支持锚点的，会自动删掉
 
  1 状态行  2响应头 3.回车换行 4消息体
 
-![image-20220423174521406](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220423174521406.png)
+![image-20220423174521406](https://mqc-img.oss-cn-shanghai.aliyuncs.com/img/image-20220423174521406.png)
 
 
 
@@ -43,5 +43,5 @@ TCP优化  并发链接
 
 并行请求和连接复用不冲突， 因为第2批的并行请求中， 可以会继续在第一批的并行请求中建立链接进行复用 
 
-http管道化bug ：导致请求之间的顺序存在依赖性， 并行不能达到最快的速度， 假如发出了3个请求，按照1，2，3顺序，那如果第2个请求先返回的结果， 会当成第一个请求的响应结果， 所以需要按照顺序响应。![image-20220504224658752](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220504224658752.png)
+http管道化bug ：导致请求之间的顺序存在依赖性， 并行不能达到最快的速度， 假如发出了3个请求，按照1，2，3顺序，那如果第2个请求先返回的结果， 会当成第一个请求的响应结果， 所以需要按照顺序响应。![image-20220504224658752](https://mqc-img.oss-cn-shanghai.aliyuncs.com/img/image-20220504224658752.png)
 
